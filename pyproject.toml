@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "NightVision"
+version = "0.1.0"
+description = "Toolkit for serving HuggingFace models via vLLM with token-level logprob analysis"
+requires-python = ">=3.12"
+dependencies = [
+    "openai",
+    "httpx",
+    "requests",
+    "tqdm",
+    "numpy",
+    "wandb",
+    "huggingface-hub",
+    "transformers >=5.8,<6.0",
+    "safetensors",
+    "matplotlib",
+    "accelerate",
+]
+
+[tool.setuptools.packages.find]
+include = ["api*"]

@@ -1,0 +1,56 @@
+# ---- Python ----
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+build/
+dist/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+archive/
+# ---- Environments / secrets ----
+.venv/
+venv/
+env/
+.env
+.env.*
+*.token
+
+# ---- Logs ----
+logs/
+*.out
+*.err
+wandb/
+
+# ---- Model weights / tensors / caches ----
+*.pt
+*.pth
+*.bin
+*.safetensors
+*.ckpt
+.cache/
+hf_cache/
+
+# ---- Experiment outputs (large, regenerable) ----
+# Raw prompt-search outputs (~1 GB) and per-model logits.
+experiments/**/results/*
+
+# ---- Editors / OS ----
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+
+
+*.png
+
+experiments/nightvision_timing/archive*
+nightvision_paper/

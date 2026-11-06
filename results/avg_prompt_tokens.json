@@ -1,0 +1,199 @@
+{
+  "models": [
+    {
+      "model": "ibm-granite/granite-3.0-1b-a400m-instruct",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 24.30965
+    },
+    {
+      "model": "ibm-granite/granite-3.0-2b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 24.26665
+    },
+    {
+      "model": "ibm-granite/granite-3.0-3b-a800m-instruct",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 24.73185
+    },
+    {
+      "model": "ibm-granite/granite-3.0-8b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 23.91215
+    },
+    {
+      "model": "ibm-granite/granite-3.1-1b-a400m-instruct",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 72.6972
+    },
+    {
+      "model": "ibm-granite/granite-3.1-2b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 71.86215
+    },
+    {
+      "model": "ibm-granite/granite-3.1-3b-a800m-instruct",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 71.146
+    },
+    {
+      "model": "ibm-granite/granite-3.1-8b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 71.50675
+    },
+    {
+      "model": "ibm-granite/granite-3.2-2b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 76.16815
+    },
+    {
+      "model": "ibm-granite/granite-3.2-8b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 71.8087
+    },
+    {
+      "model": "ibm-granite/granite-3.3-2b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 71.35365
+    },
+    {
+      "model": "ibm-granite/granite-3.3-8b-instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 68.2883
+    },
+    {
+      "model": "ibm-granite/granite-4.0-350m",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 47.02695
+    },
+    {
+      "model": "ibm-granite/granite-4.0-micro",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 47.394
+    },
+    {
+      "model": "meta-llama/Llama-3.1-8B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 49.18225
+    },
+    {
+      "model": "meta-llama/Llama-3.2-1B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 48.7871
+    },
+    {
+      "model": "meta-llama/Llama-3.2-3B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 47.4535
+    },
+    {
+      "model": "allenai/OLMo-2-0425-1B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 25.5679
+    },
+    {
+      "model": "allenai/OLMo-2-1124-7B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 31.33655
+    },
+    {
+      "model": "allenai/Olmo-3-7B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 48.30055
+    },
+    {
+      "model": "allenai/OLMoE-1B-7B-0924-Instruct",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 36.6843
+    },
+    {
+      "model": "Qwen/Qwen2.5-0.5B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 36.39515
+    },
+    {
+      "model": "Qwen/Qwen2.5-1.5B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 39.8904
+    },
+    {
+      "model": "Qwen/Qwen2.5-3B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 40.98765
+    },
+    {
+      "model": "Qwen/Qwen2.5-7B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 38.35965
+    },
+    {
+      "model": "Qwen/Qwen3.5-0.8B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 28.2599
+    },
+    {
+      "model": "Qwen/Qwen3.5-2B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 25.94435
+    },
+    {
+      "model": "Qwen/Qwen3.5-4B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 25.9887
+    },
+    {
+      "model": "Qwen/Qwen3.5-9B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 28.56675
+    },
+    {
+      "model": "Qwen/Qwen3-0.6B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 22.86905
+    },
+    {
+      "model": "Qwen/Qwen3-1.7B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 19.2282
+    },
+    {
+      "model": "Qwen/Qwen3-30B-A3B",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 22.20205
+    },
+    {
+      "model": "Qwen/Qwen3-30B-A3B-Instruct-2507",
+      "architecture": "MoE",
+      "avg_prompt_tokens": 15.03135
+    },
+    {
+      "model": "Qwen/Qwen3-4B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 20.43375
+    },
+    {
+      "model": "Qwen/Qwen3-8B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 20.3531
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 44.94225
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM2-135M-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 47.4223
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 45.8877
+    },
+    {
+      "model": "HuggingFaceTB/SmolLM3-3B",
+      "architecture": "Dense",
+      "avg_prompt_tokens": 82.91615
+    }
+  ]
+}

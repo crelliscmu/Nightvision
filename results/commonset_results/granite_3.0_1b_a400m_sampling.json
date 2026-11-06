@@ -1,0 +1,111 @@
+{
+  "run_tag": "granite_3.0_1b_a400m",
+  "config": {
+    "budget": 20000000000,
+    "n_p": 20000,
+    "n_steps": 10,
+    "true_dim": 1024
+  },
+  "steps": [
+    {
+      "step": 1,
+      "draws_per_prompt_total": 100000,
+      "d_hat": 640,
+      "aoi_saddle": 555,
+      "aoi_peak": 643,
+      "spectrum_class": "C1_underestimate",
+      "sc_snapback": 0.04069567403832717,
+      "rel_err": 0.375
+    },
+    {
+      "step": 2,
+      "draws_per_prompt_total": 200000,
+      "d_hat": 896,
+      "aoi_saddle": 748,
+      "aoi_peak": 998,
+      "spectrum_class": "C1_underestimate",
+      "sc_snapback": 0.4646829414850199,
+      "rel_err": 0.125
+    },
+    {
+      "step": 3,
+      "draws_per_prompt_total": 300000,
+      "d_hat": 1024,
+      "aoi_saddle": 860,
+      "aoi_peak": 1088,
+      "spectrum_class": "C2_marginal",
+      "sc_snapback": 0.6364550194051859,
+      "rel_err": 0.0
+    },
+    {
+      "step": 4,
+      "draws_per_prompt_total": 400000,
+      "d_hat": 1024,
+      "aoi_saddle": 928,
+      "aoi_peak": 1107,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.722706676926081,
+      "rel_err": 0.0
+    },
+    {
+      "step": 5,
+      "draws_per_prompt_total": 500000,
+      "d_hat": 1024,
+      "aoi_saddle": 961,
+      "aoi_peak": 1111,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.777899034663034,
+      "rel_err": 0.0
+    },
+    {
+      "step": 6,
+      "draws_per_prompt_total": 600000,
+      "d_hat": 1024,
+      "aoi_saddle": 983,
+      "aoi_peak": 1111,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.8256576036852427,
+      "rel_err": 0.0
+    },
+    {
+      "step": 7,
+      "draws_per_prompt_total": 700000,
+      "d_hat": 1024,
+      "aoi_saddle": 997,
+      "aoi_peak": 1112,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.8592986023281625,
+      "rel_err": 0.0
+    },
+    {
+      "step": 8,
+      "draws_per_prompt_total": 800000,
+      "d_hat": 1024,
+      "aoi_saddle": 1006,
+      "aoi_peak": 1114,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.8804954605566131,
+      "rel_err": 0.0
+    },
+    {
+      "step": 9,
+      "draws_per_prompt_total": 900000,
+      "d_hat": 1024,
+      "aoi_saddle": 1011,
+      "aoi_peak": 1115,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.8955401513889856,
+      "rel_err": 0.0
+    },
+    {
+      "step": 10,
+      "draws_per_prompt_total": 1000000,
+      "d_hat": 1024,
+      "aoi_saddle": 1014,
+      "aoi_peak": 1116,
+      "spectrum_class": "C3_good",
+      "sc_snapback": 0.904985906085272,
+      "rel_err": 0.0
+    }
+  ]
+}
